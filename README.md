@@ -1,22 +1,23 @@
-# 🖥️ Windows Server 2022 Virtualization Lab
+# 🖥️ Networking & Virtualization Lab
 
-![OS](https://img.shields.io/badge/Operating%20System-Windows%20Server%202022-blue)
+![OS](https://img.shields.io/badge/Operating%20Systems-Windows%20Server%202022%20%7C%20Ubuntu%2024.04-blue)
 ![Virtualization](https://img.shields.io/badge/Virtualization-Oracle%20VirtualBox-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Type](https://img.shields.io/badge/Project-Professional-lightgrey)
-![Category](https://img.shields.io/badge/Focus-System%20Administration%20%26%20Architecture-purple)
+![Type](https://img.shields.io/badge/Project-Academic-lightgrey)
+![Category](https://img.shields.io/badge/Focus-System%20Administration%20%26%20Networking-purple)
 
 ---
 
 ## 🧠 Project Overview
 
-This repository contains my complete **Operating Systems & Architecture** projects demonstrating practical **virtualization**, **network configuration**, and **computer architecture research**.
+This repository contains my **Networking & Virtualization** module projects demonstrating practical **system administration**, **virtualization**, and **network configuration** using **Windows Server 2022** and **Ubuntu 24.04 (Noble Numbat)** on **Oracle VirtualBox**.
 
-It showcases two major lab assignments:
+It combines both **Windows** and **Linux** virtualization environments to simulate real-world IT infrastructure, network services, and security management.
+
+### 💡 Projects Included
 1. **Operating System Virtualization & Computer Architecture Research (Part 1)**  
 2. **Windows Server 2022 Virtualization Lab (Part 2)**  
-
-Both projects were performed using **Oracle VirtualBox** and **Windows Server 2022**, simulating real-world IT infrastructure environments.
+3. **Linux Virtual Network — Proof of Concept (Part 3)**  
 
 ---
 
@@ -42,15 +43,35 @@ Explored and compared key computing architectures:
 
 ### 🧩 Network Configuration
 - Deployed **Active Directory Domain Services (AD DS)** on DNS Server.  
-- Configured **DHCP**, **DNS**, and **Group Policies** for centralized network management.  
+- Configured **DHCP**, **DNS**, and **Group Policies** for centralized management.  
 - Implemented password, lockout, and logon-hour restrictions.  
 - Created departmental folders with NTFS permissions.
 
 ### 💾 RAID & WSUS Setup
 - Configured **RAID 1 (Drive F:)** and **RAID 5 (Drive E:)** for redundancy and performance.  
-- Attempted **WSUS** installation for centralized patch management.
+- Installed **WSUS** for centralized patch management.
 
 📘 [**View Part 2 Report (PDF)**](Windows_Server_Virtualization_Project_Part2.pdf)
+
+---
+
+## 🧩 Part 3 – Linux Virtual Network (Proof of Concept)
+
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%2024.04-orange)
+![Tool](https://img.shields.io/badge/Tool-VirtualBox-blue)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+This project demonstrates the creation of a **Linux-based virtual network infrastructure** using **Ubuntu 24.04 (Noble Numbat)** in **Oracle VirtualBox**, simulating client-server interaction, security configurations, and research-based activities.
+
+### 🔧 Key Tasks
+- Created and configured two VMs: `ubuntuserver` and `ubuntuclient`
+- Installed **Apache Web Server** and **Lynx Browser** for web testing  
+- Captured **ICMP** and **TCP/IP 3-way handshake** traffic using **Wireshark**  
+- Enabled **SSH** connections and managed **UFW** & **iptables** firewall rules  
+- Set up **Samba** for cross-platform file sharing between Linux and Windows  
+- Compared **Linux vs Windows boot processes** and explored password recovery
+
+📄 [**View Full Linux Report (PDF)**](Linux_Virtual_Network_Project.pdf)
 
 ---
 
@@ -59,12 +80,12 @@ Explored and compared key computing architectures:
 | Category | Tools / Services |
 |-----------|------------------|
 | Virtualization | Oracle VirtualBox |
-| Operating System | Windows Server 2022 |
-| Network Services | AD DS, DNS, DHCP |
-| Security & Policy | Group Policy Management |
+| Operating Systems | Windows Server 2022, Ubuntu 24.04 |
+| Network Services | AD DS, DNS, DHCP, Apache, Samba, SSH |
+| Security & Firewall | UFW, iptables, Group Policy |
+| Monitoring & Analysis | Wireshark |
 | Storage | RAID 1, RAID 5 |
 | Patch Management | WSUS |
-| Research | Raspberry Pi, Arduino, Mainframes, Supercomputers |
 | Documentation | Microsoft Word / PDF |
 
 ---

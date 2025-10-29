@@ -94,4 +94,4 @@ This project demonstrates the creation of a **Linux-based virtual network infras
 
 **Egshiglen Enkhbayar**  
 📍 Dublin, Ireland  
-🔗 [GitHub](https://github.com/egshiglen2024359) | [LinkedIn (https://linkedin.com/in/egshiglenenkhbayar)  
+🔗 [GitHub](https://github.com/egshiglen-henny) | [LinkedIn](https://linkedin.com/in/egshiglene)
